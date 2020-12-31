@@ -1,0 +1,45 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: #000;
+	font-family: Montserrat, sans-serif;
+	background-image: url(https://images.pexels.com/photos/219692/pexels-photo-219692.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+	background-size: cover;
+	background-position: center;
+}
+
+canvas {
+	mix-blend-mode: lighten;
+	cursor: pointer;
+}
+
+#hero {
+	display: inline;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+    h1{
+        color: white;
+    }
+
+}
+
+#year {
+	font-size: 30vw;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#timeleft {
+	color: white;
+    padding: 1em;
+    font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+	font-family: Lora, serif;
+    background-color: #000;
+    
+}
